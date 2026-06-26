@@ -116,7 +116,35 @@ src
 │
 ├── assets
 ├── components
-    ├── About.css
+    ├── api
+        ├── locationApi.js
+    ├── chooseus
+    ├── contact
+    ├── footer
+    ├── hero
+        ├── AnimationCar.css
+        ├── AnimationCar.jsx
+        ├── Hero.css
+        ├── Hero.jsx
+    ├── navbar
+        ├── BottomNav.css
+        ├── BottomNav.jsx
+        ├── FloationSocial.css
+        ├── FloationSocial.jsx
+        ├── Navbar.css
+        ├── Navbar.jsx
+    ├── ourgarage
+        ├── BookingModal.css
+        ├── BookingModal.jsx
+        ├── OurGarage.css
+        ├── OurGarage.jsx
+    ├── readytoroll
+        ├── ReadytoRoll.css
+        ├── ReadytoRoll.jsx
+    ├── testimonials
+        ├── TestimonialData.js
+        ├── Testimonials.css
+        ├── Testimonials.jsx
 │
 ├── hooks
     ├── useScrollBottom.js
