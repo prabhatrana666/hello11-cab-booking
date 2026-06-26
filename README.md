@@ -21,7 +21,7 @@
 
 > **Live Website**
 
-https://your-domain.com
+https://hello11cabbooking.netlify.app/
 
 ---
 
@@ -116,22 +116,32 @@ src
 │
 ├── assets
 ├── components
+    ├── About.css
 │
-├── Hero
-├── Navbar
-├── Fleet
-├── Booking
-├── Testimonials
-├── Gallery
-├── Contact
-├── Footer
-│
-├── pages
 ├── hooks
-├── utils
-│
+    ├── useScrollBottom.js
+    ├── useScrollDirection.js
+├── pages
+    ├── About.css
+    ├── About.jsx
+    ├── BookingModal.css
+    ├── BookingModal.jsx
+    ├── CarsData.js
+    ├── Gallery.css
+    ├── Gallery.jsx
+    ├── GalleryData.js
+    ├── Home.jsx
+    ├── Rent.css
+    ├── Rent.jsx
+├── routes
+    ├── AppRoutes.jsx
+├── styles
+    ├── variable.css
+│    
 ├── App.jsx
 └── main.jsx
+├── App.css
+└── index.css
 ```
 
 ---
