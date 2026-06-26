@@ -185,17 +185,31 @@ src
 
 ---
 
-# 📸 Screenshots
+## 🖥️ Desktop Preview
 
-Replace these with project screenshots.
+### Homepage
+![Homepage](./screenshots/main.png)
 
-| Desktop  | Mobile            |
-| -------- | ----------------- |
-| Homepage | Responsive Layout |
-| Fleet    | Booking Modal     |
-| Gallery  | Testimonials      |
+### Premium Fleet
+![Fleet](./screenshots/main2.png)
+
+### Our Garage & Why Choose Us
+![Gallery](./screenshots/main3.png)
+
+### Feedback Us & Ready To Roll
+![Footer](./screenshots/feedback.png)
+
+### Footer
+![Footer](./screenshots/footer.png)
 
 ---
+
+## 📱 Mobile Preview
+
+<p align="center">
+  <img src="./screenshots/home-mobile.png" width="260">
+  <img src="./screenshots/booking-mobile.png" width="260">
+</p>
 
 # 🚀 Getting Started
 
