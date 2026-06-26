@@ -10,6 +10,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript\&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap\&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animations-black)
+![Geoapify API](https://img.shields.io/badge/Geoapify-API-00A86B)
 ![PWA](https://img.shields.io/badge/PWA-Enabled-5A0FC8)
 ![Responsive](https://img.shields.io/badge/Responsive-100%25-success)
 
@@ -96,16 +97,17 @@ The project follows modern React architecture with reusable components, responsi
 
 # ⚙️ Technology Stack
 
-| Technology         | Usage                   |
-| ------------------ | ----------------------- |
-| ⚛ React.js         | Frontend Development    |
-| 🟨 JavaScript ES6+ | Application Logic       |
-| 🎨 Bootstrap 5     | Responsive Layout       |
-| 💅 CSS3            | Custom Styling          |
-| 🎭 Framer Motion   | Animations              |
-| 🎯 Lucide React    | Modern Icons            |
-| 📱 PWA             | Installable Application |
-| 🔧 Git             | Version Control         |
+| Technology             | Usage                                    |
+|------------------------|------------------------------------------|
+| ⚛️ React.js            | Frontend Development                     |
+| 🟨 JavaScript (ES6+)   | Application Logic                        |
+| 🎨 Bootstrap 5         | Responsive Grid & UI Components          |
+| 💅 CSS3                | Custom Styling & Responsive Design       |
+| 🎭 Framer Motion       | Animations & Micro-interactions          |
+| 🎯 Lucide React        | Modern SVG Icons                         |
+| 🌍 Geoapify API        | Location Autocomplete & Search           |
+| 📱 Progressive Web App | Installable Web Application              |
+| 🔧 Git & GitHub        | Version Control & Source Management      |
 
 ---
 
