@@ -119,8 +119,19 @@ src
     ├── api
         ├── locationApi.js
     ├── chooseus
+        ├── ChooseUs.css
+        ├── ChooseUs.jsx
     ├── contact
+        ├── Contact.css
+        ├── Contact.jsx
     ├── footer
+        ├── CommonLinks.css
+        ├── Footer.css
+        ├── Footer.jsx
+        ├── InsurancePolicy.jsx
+        ├── PrivacyPolicy.jsx
+        ├── RefundPolicy.jsx
+        ├── TermsandCond.jsx
     ├── hero
         ├── AnimationCar.css
         ├── AnimationCar.jsx
