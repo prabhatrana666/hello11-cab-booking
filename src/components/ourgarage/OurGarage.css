@@ -133,6 +133,11 @@
         font-size: 40px !important;
     }
 
+    .right-btn {
+        left: 36%;
+        top: 25px;
+    }
+
     .garage-slider {
         flex-wrap: wrap;
         /* allow items to go next line */

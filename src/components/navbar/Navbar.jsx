@@ -15,7 +15,7 @@ function Navbar() {
             <nav className={`navbar navbar-expand-lg custom-navbar fixed-top 
             ${hide ? "hide-navbar" : ""}`}>
 
-                <div className="container-fluid px-4">
+                <div className="container-fluid px-4 helloiji">
 
                     <div className="d-flex align-items-center gap-3 main_class"
                         onClick={() => navigate("/")}

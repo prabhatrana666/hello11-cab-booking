@@ -16,23 +16,44 @@ function OurGarage() {
     const [current, setCurrent] = useState(0);
     const [showModal, setShowModal] = useState(false);
 
+    // const nextSlide = () => {
+    //     setCurrent((prev) => (prev + 1) % carData.length);
+    // };
+
+    // const prevSlide = () => {
+    //     setCurrent(
+    //         (prev) => (prev - 1 + cars.length) % carData.length
+    //     );
+    // };
     const nextSlide = () => {
-        setCurrent((prev) => (prev + 1) % carData.length);
+        setCurrent((prev) => {
+            if (!carData || carData.length === 0) return 0;
+            return (prev + 1) % carData.length;
+        });
     };
 
     const prevSlide = () => {
-        setCurrent(
-            (prev) => (prev - 1 + cars.length) % carData.length
-        );
+        setCurrent((prev) => {
+            if (!carData || carData.length === 0) return 0;
+            return (prev - 1 + carData.length) % carData.length;
+        });
     };
+    // useEffect(() => {
+    //     const timer = setInterval(() => {
+    //         nextSlide();
+    //     }, 5000);
+
+    //     return () => clearInterval(timer);
+    // }, []);
     useEffect(() => {
+        if (!carData || carData.length === 0) return;
+
         const timer = setInterval(() => {
-            nextSlide();
+            setCurrent((prev) => (prev + 1) % carData.length);
         }, 5000);
 
         return () => clearInterval(timer);
-    }, []);
-
+    }, [carData.length]);
     const activeCar = carData[current];
 
     return (
