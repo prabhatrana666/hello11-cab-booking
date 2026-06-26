@@ -220,8 +220,8 @@ src
 ## 📱 Mobile Preview
 
 <p align="center">
-  <img src="./screenshots/home-mobile.png" width="260">
-  <img src="./screenshots/booking-mobile.png" width="260">
+  <img src="./screenshots/mob 1.png" width="260">
+  <img src="./screenshots/rent mob.png" width="260">
 </p>
 
 # 🚀 Getting Started
