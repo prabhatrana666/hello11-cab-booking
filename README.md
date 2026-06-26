@@ -195,12 +195,25 @@ src
 
 ### Our Garage & Why Choose Us
 ![Gallery](./screenshots/main3.png)
+![Gallery](./screenshots/ourgarage2.png)
 
 ### Feedback Us & Ready To Roll
 ![Footer](./screenshots/feedback.png)
 
 ### Footer
 ![Footer](./screenshots/footer.png)
+
+### Rent
+![Footer](./screenshots/rent.png)
+![Footer](./screenshots/rent2.png)
+
+### Gallery
+![Footer](./screenshots/gallery.png)
+![Footer](./screenshots/gallery2.png)
+
+
+### About Us
+![Footer](./screenshots/about.png)
 
 ---
 
