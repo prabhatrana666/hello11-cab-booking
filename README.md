@@ -1,7 +1,7 @@
 # 🚖 Hello11 Cab Booking
 
 <p align="center">
-  <strong>A premium Progressive Web Application (PWA) built with React.js, delivering a modern taxi booking experience through elegant UI, smooth micro-interactions, responsive layouts, and performance-first engineering.</strong>
+  <strong>A premium Progressive Web Application (PWA) built with React.js, featuring a modern taxi booking experience, responsive UI, smooth micro-interactions, third-party API integration for location autocomplete, and performance-focused frontend architecture.</strong>
 </p>
 
 <p align="center">
