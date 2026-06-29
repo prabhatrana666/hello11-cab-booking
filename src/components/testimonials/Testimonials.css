@@ -16,6 +16,14 @@
     pointer-events: none;
 }
 
+.feedback-description {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #49556b;
+    text-align: center;
+}
+
 /* ===== SWIPER NAVIGATION BUTTONS ===== */
 .swiper-button-next,
 .swiper-button-prev {

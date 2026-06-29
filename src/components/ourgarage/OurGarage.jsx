@@ -60,13 +60,27 @@ function OurGarage() {
         <section className="garage-section">
 
             {/* Heading */}
-            <div className="garage-header container text-center mt-5">
+            {/* <div className="garage-header container text-center mt-5">
                 <span className="premium_fleet">PREMIUM FLEET</span>
                 <h2 className="our_garage">
                     OUR <span style={{ color: 'var(--primary)' }}>GARAGE</span>
                 </h2>
-            </div>
+            </div> */}
+            <div className="garage-header container text-center mt-5">
+                <span className="premium_fleet">PREMIUM FLEET</span>
 
+                <h2 className="our_garage">
+                    OUR <span style={{ color: "var(--primary)" }}>GARAGE</span>
+                </h2>
+
+                <p className="garage-description">
+                    Explore our premium fleet of clean, comfortable, and well-maintained
+                    vehicles designed to suit every travel need. Whether you're booking a
+                    local city ride, airport transfer, corporate trip, or outstation journey,
+                    HELLO11 offers reliable taxis driven by experienced chauffeurs to ensure a
+                    safe, punctual, and enjoyable travel experience.
+                </p>
+            </div>
             {/* Slider */}
             <div className="garage-slider">
 

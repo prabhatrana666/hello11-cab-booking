@@ -10,7 +10,13 @@
 
   padding: 120px 20px 60px;
 }
-
+.garage-description{
+      font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #49556b;
+    text-align: center;
+}
 .hero-badge {
   padding: 7px 28px;
 

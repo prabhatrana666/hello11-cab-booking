@@ -1,7 +1,7 @@
 import "./Hero.css";
 import { motion } from "framer-motion";
 import { Crown } from "lucide-react";
-import { User, MapPin, Search, Car, ArrowRight , Phone} from "lucide-react";
+import { User, MapPin, Search, Car, ArrowRight, Phone } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { fetchLocationSuggestions } from "../api/locationApi";
 import { Shield, Star, Headset } from "lucide-react";
@@ -207,7 +207,7 @@ Vehicle: ${vehicle}
           <span>PREMIUM TAXI AND CAB SERVICES</span>
         </motion.span>
 
-        <motion.h1
+        {/* <motion.h1
           initial={{ opacity: 0, y: 80 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -223,8 +223,26 @@ Vehicle: ${vehicle}
         >
           Comfortable, safe, and always on time.
           Your premium journey starts here.
-        </motion.p>
+        </motion.p> */}
 
+        <motion.h1
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          DURI PATA
+          <span> NA CHALE</span>
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.8 }}
+        >
+          Experience premium taxi and cab services across Delhi NCR with HELLO11.
+          Whether you're booking an airport transfer, local city ride, corporate
+          travel, or an outstation journey.
+        </motion.p>
         <form className="booking-form mt-5" onSubmit={handleSubmit}>
           <div className="form-group">
             <label>PASSENGER</label>
@@ -322,7 +340,7 @@ Vehicle: ${vehicle}
 
         <div className="feature-badges">
           <div className="badge">
-            <Shield size={18} color="var(--primary)"/>
+            <Shield size={18} color="var(--primary)" />
             VERIFIED PARTNERS
           </div>
 
@@ -332,7 +350,7 @@ Vehicle: ${vehicle}
           </div>
 
           <div className="badge">
-            <Phone size={18} color="var(--primary)"/>
+            <Phone size={18} color="var(--primary)" />
             24/7 SUPPORT
           </div>
         </div>
